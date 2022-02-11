@@ -1,11 +1,27 @@
 import "../styles/AboutMe.css";
 import mug from "../assets/mug.jpeg";
+import blueBackground from "../assets/bk.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
 
 function AboutMe() {
   return (
-    <header className="AboutMe">
+    <header
+      className="AboutMe"
+      style={{ backgroundImage: `url(${blueBackground})` }}
+    >
       <div className="myPicture">
-        <div style={{ backgroundImage: `url(${mug})` }}>Ricardo</div>
+        <div
+          className="imageContainer"
+          style={{ backgroundImage: `url(${mug})` }}
+        >
+          <p className="myPicture-name">Ricardo Camacho</p>
+        </div>
       </div>
       <div className="myInfo">
         <h2>About Me</h2>
@@ -17,6 +33,12 @@ function AboutMe() {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur.
         </p>
+        <div className="external-icons">
+          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faFacebook} />
+          <FontAwesomeIcon icon={faLinkedin} />
+        </div>
       </div>
     </header>
   );

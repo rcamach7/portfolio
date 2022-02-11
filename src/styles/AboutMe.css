@@ -1,19 +1,47 @@
 .AboutMe {
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 .AboutMe .myPicture {
-  width: 100%;
+  max-width: 400px;
   padding: 20px;
 }
-.AboutMe .myPicture div {
+.AboutMe .myPicture .imageContainer {
   width: 100%;
+  min-height: 400px;
+  padding: 5px;
   background-size: cover;
-  min-height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: flex-end;
+}
+.AboutMe .myPicture .imageContainer p {
+  color: white;
+  font-size: 50px;
+}
+.AboutMe .myInfo {
+  max-width: 400px;
+  padding: 10px;
+  color: #565656;
 }
 .AboutMe .myInfo h2 {
   text-align: center;
+  margin-bottom: 5px;
+}
+.AboutMe .myInfo p {
+  line-height: 1.5;
+}
+.AboutMe .myInfo .external-icons {
+  width: 100%;
+  margin-top: 5px;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 /*# sourceMappingURL=AboutMe.css.map */
