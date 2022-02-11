@@ -1,5 +1,5 @@
 import "../styles/AboutMe.css";
-import mug from "../assets/mug.jpeg";
+import mug from "../assets/mug.png";
 import blueBackground from "../assets/bk.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -13,7 +13,7 @@ function AboutMe() {
   return (
     <header
       className="AboutMe"
-      // style={{ backgroundImage: `url(${blueBackground})` }}
+      style={{ backgroundImage: `url(${blueBackground})` }}
     >
       <div className="myPicture">
         <div

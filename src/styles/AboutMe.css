@@ -1,5 +1,6 @@
 .AboutMe {
   background-repeat: no-repeat;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +8,7 @@
 }
 .AboutMe .myPicture {
   max-width: 300px;
-  padding: 20px;
+  padding: 10px;
 }
 .AboutMe .myPicture .imageContainer {
   width: 100%;
@@ -15,6 +16,7 @@
   padding: 5px;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
   display: flex;
   align-items: flex-end;
 }
@@ -62,6 +64,35 @@
   }
   .myInfo .wrapper h2 {
     text-align: left;
+  }
+}
+@media (min-width: 900px) {
+  .AboutMe {
+    display: flex;
+  }
+  .AboutMe .myPicture {
+    float: none;
+    margin-left: 0;
+    max-width: 325px;
+    padding-right: 0px;
+  }
+  .AboutMe .myPicture .imageContainer {
+    min-height: 350px;
+  }
+  .AboutMe .myInfo {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0 15px 15px 0;
+  }
+  .AboutMe .myInfo .wrapper {
+    width: 100%;
+    margin: 0px;
+  }
+  .AboutMe .myInfo .wrapper h2 {
+    text-align: center;
+  }
+  .AboutMe .myInfo .wrapper .external-icons {
+    justify-content: end;
   }
 }
 
