@@ -13,7 +13,7 @@ function AboutMe() {
   return (
     <header
       className="AboutMe"
-      style={{ backgroundImage: `url(${blueBackground})` }}
+      // style={{ backgroundImage: `url(${blueBackground})` }}
     >
       <div className="myPicture">
         <div
@@ -24,20 +24,22 @@ function AboutMe() {
         </div>
       </div>
       <div className="myInfo">
-        <h2>About Me</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-        </p>
-        <div className="external-icons">
-          <FontAwesomeIcon icon={faGithub} />
-          <FontAwesomeIcon icon={faTwitter} />
-          <FontAwesomeIcon icon={faFacebook} />
-          <FontAwesomeIcon icon={faLinkedin} />
+        <div className="wrapper">
+          <h2>About Me</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+          <div className="external-icons">
+            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faFacebook} />
+            <FontAwesomeIcon icon={faLinkedin} />
+          </div>
         </div>
       </div>
     </header>

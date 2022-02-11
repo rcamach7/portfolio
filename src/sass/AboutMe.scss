@@ -7,11 +7,11 @@
   flex-wrap: wrap;
 
   .myPicture {
-    max-width: 400px;
+    max-width: 300px;
     padding: 20px;
     .imageContainer {
       width: 100%;
-      min-height: 400px;
+      min-height: 350px;
       padding: 5px;
 
       background-size: cover;
@@ -26,8 +26,10 @@
     }
   }
   .myInfo {
-    max-width: 400px;
+    max-width: 350px;
     padding: 10px;
+
+    background-color: transparent;
     color: rgb(86, 86, 86);
 
     h2 {
@@ -41,7 +43,7 @@
       width: 100%;
       margin-top: 5px;
 
-      color: black;
+      color: rgb(86, 86, 86);
       font-size: 20px;
 
       display: flex;
@@ -50,4 +52,28 @@
     }
   }
 }
-// box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+@media (min-width: 650px) {
+  // Entire Container
+  .AboutMe {
+    display: block;
+  }
+
+  .myPicture {
+    float: left;
+
+    margin-left: 15vw;
+    padding-bottom: 0 !important;
+  }
+
+  .myInfo {
+    .wrapper {
+      width: 50vw;
+      margin: 100px 25vw 0 25vw;
+
+      h2 {
+        text-align: left;
+      }
+    }
+  }
+}

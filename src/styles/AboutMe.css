@@ -6,12 +6,12 @@
   flex-wrap: wrap;
 }
 .AboutMe .myPicture {
-  max-width: 400px;
+  max-width: 300px;
   padding: 20px;
 }
 .AboutMe .myPicture .imageContainer {
   width: 100%;
-  min-height: 400px;
+  min-height: 350px;
   padding: 5px;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -23,8 +23,9 @@
   font-size: 50px;
 }
 .AboutMe .myInfo {
-  max-width: 400px;
+  max-width: 350px;
   padding: 10px;
+  background-color: transparent;
   color: #565656;
 }
 .AboutMe .myInfo h2 {
@@ -37,11 +38,31 @@
 .AboutMe .myInfo .external-icons {
   width: 100%;
   margin-top: 5px;
-  color: black;
+  color: #565656;
   font-size: 20px;
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+@media (min-width: 650px) {
+  .AboutMe {
+    display: block;
+  }
+
+  .myPicture {
+    float: left;
+    margin-left: 15vw;
+    padding-bottom: 0 !important;
+  }
+
+  .myInfo .wrapper {
+    width: 50vw;
+    margin: 100px 25vw 0 25vw;
+  }
+  .myInfo .wrapper h2 {
+    text-align: left;
+  }
 }
 
 /*# sourceMappingURL=AboutMe.css.map */
