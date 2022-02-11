@@ -1,0 +1,21 @@
+.AboutMe {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .myPicture {
+    width: 100%;
+    padding: 20px;
+    div {
+      width: 100%;
+      background-size: cover;
+      min-height: 500px;
+    }
+  }
+  .myInfo {
+    h2 {
+      text-align: center;
+    }
+  }
+}
+// box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

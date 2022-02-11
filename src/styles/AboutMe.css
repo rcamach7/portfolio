@@ -1,0 +1,19 @@
+.AboutMe {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.AboutMe .myPicture {
+  width: 100%;
+  padding: 20px;
+}
+.AboutMe .myPicture div {
+  width: 100%;
+  background-size: cover;
+  min-height: 500px;
+}
+.AboutMe .myInfo h2 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=AboutMe.css.map */

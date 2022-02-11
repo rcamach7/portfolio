@@ -1,7 +1,10 @@
+import "../styles/Home.css";
+import AboutMe from "../components/AboutMe";
+
 function Home() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <AboutMe />
     </div>
   );
 }
