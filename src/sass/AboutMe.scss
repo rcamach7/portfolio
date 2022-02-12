@@ -18,7 +18,7 @@
 
       background-size: cover;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      border-radius: 15px;
+      border-radius: 5px;
 
       display: flex;
       align-items: flex-end;
@@ -52,6 +52,14 @@
       display: flex;
       justify-content: center;
       gap: 10px;
+
+      .icon {
+        transition: transform 1s;
+      }
+      .icon:hover {
+        cursor: pointer;
+        transform: rotate(360deg) scale(1.5);
+      }
     }
   }
 }
@@ -102,7 +110,7 @@
     .myInfo {
       background-color: white;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      border-radius: 0 15px 15px 0;
+      border-radius: 0 5px 5px 0;
 
       .wrapper {
         // Reset previous media query

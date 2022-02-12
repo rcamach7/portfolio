@@ -35,10 +35,10 @@ function AboutMe() {
             pariatur.
           </p>
           <div className="external-icons">
-            <FontAwesomeIcon icon={faGithub} />
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faFacebook} />
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon className="icon" icon={faGithub} />
+            <FontAwesomeIcon className="icon" icon={faTwitter} />
+            <FontAwesomeIcon className="icon" icon={faFacebook} />
+            <FontAwesomeIcon className="icon" icon={faLinkedin} />
           </div>
         </div>
       </div>
