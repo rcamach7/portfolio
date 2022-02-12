@@ -1,0 +1,46 @@
+.ContactMe {
+  background-color: rgb(9, 145, 177);
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .contact-info {
+    width: min(100vw, 300px);
+    padding: 0 5px 0 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      margin-bottom: 5px;
+    }
+    address {
+      margin-bottom: 15px;
+    }
+    .contact-links {
+      display: flex;
+      gap: 15px;
+
+      a {
+        .contact-icon {
+          font-size: 25px;
+          transition: transform 1s;
+        }
+        .contact-icon:hover {
+          transform: rotate(360deg) scale(1.5);
+        }
+      }
+      a:visited {
+        color: inherit;
+      }
+    }
+  }
+  .imageContainer {
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+  }
+}
