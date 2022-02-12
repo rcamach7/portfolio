@@ -1,0 +1,106 @@
+.AboutMe {
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.AboutMe .myPicture {
+  max-width: 300px;
+  padding: 10px;
+}
+.AboutMe .myPicture .imageContainer {
+  width: 100%;
+  min-height: 350px;
+  padding: 5px;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+.AboutMe .myPicture .imageContainer p {
+  color: white;
+  font-size: 50px;
+}
+.AboutMe .myInfo {
+  max-width: 350px;
+  padding: 10px;
+  background-color: transparent;
+  color: #565656;
+}
+.AboutMe .myInfo h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.AboutMe .myInfo p {
+  line-height: 1.5;
+}
+.AboutMe .myInfo .external-icons {
+  width: 100%;
+  margin-top: 5px;
+  color: #565656;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.AboutMe .myInfo .external-icons .icon {
+  transition: transform 1s;
+}
+.AboutMe .myInfo .external-icons .icon:hover {
+  cursor: pointer;
+  transform: rotate(360deg) scale(1.5);
+}
+
+@media (min-width: 650px) {
+  .AboutMe {
+    display: block;
+  }
+
+  .myPicture {
+    float: left;
+    margin-left: 15vw;
+    padding-bottom: 0 !important;
+  }
+
+  .myInfo .wrapper {
+    width: 50vw;
+    margin: 100px 25vw 0 25vw;
+  }
+  .myInfo .wrapper h2 {
+    text-align: left;
+  }
+}
+@media (min-width: 900px) {
+  .AboutMe {
+    display: flex;
+  }
+  .AboutMe .myPicture {
+    float: none;
+    margin-left: 0;
+    max-width: 325px;
+    padding-right: 0px;
+  }
+  .AboutMe .myPicture .imageContainer {
+    min-height: 350px;
+  }
+  .AboutMe .myInfo {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0 5px 5px 0;
+  }
+  .AboutMe .myInfo .wrapper {
+    width: 100%;
+    margin: 0px;
+  }
+  .AboutMe .myInfo .wrapper h2 {
+    text-align: center;
+  }
+  .AboutMe .myInfo .wrapper .external-icons {
+    justify-content: end;
+  }
+}
+
+/*# sourceMappingURL=AboutMe.css.map */

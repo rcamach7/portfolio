@@ -1,0 +1,129 @@
+.AboutMe {
+  background-repeat: no-repeat;
+  padding-top: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .myPicture {
+    max-width: 300px;
+    padding: 10px;
+
+    .imageContainer {
+      width: 100%;
+      min-height: 350px;
+      padding: 5px;
+
+      background-size: cover;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 5px;
+
+      display: flex;
+      align-items: flex-end;
+      p {
+        color: white;
+        font-size: 50px;
+      }
+    }
+  }
+  .myInfo {
+    max-width: 350px;
+    padding: 10px;
+
+    background-color: transparent;
+    color: rgb(86, 86, 86);
+
+    h2 {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    p {
+      line-height: 1.5;
+    }
+    .external-icons {
+      width: 100%;
+      margin-top: 5px;
+
+      color: rgb(86, 86, 86);
+      font-size: 20px;
+
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+
+      .icon {
+        transition: transform 1s;
+      }
+      .icon:hover {
+        cursor: pointer;
+        transform: rotate(360deg) scale(1.5);
+      }
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  // Entire Container
+  .AboutMe {
+    display: block;
+  }
+
+  .myPicture {
+    float: left;
+
+    margin-left: 15vw;
+    padding-bottom: 0 !important;
+  }
+
+  .myInfo {
+    .wrapper {
+      width: 50vw;
+      margin: 100px 25vw 0 25vw;
+
+      h2 {
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .AboutMe {
+    // Reset previous media query
+    display: flex;
+
+    .myPicture {
+      // Reset previous media query
+      float: none;
+      margin-left: 0;
+
+      max-width: 325px;
+      padding-right: 0px;
+
+      .imageContainer {
+        min-height: 350px;
+      }
+    }
+
+    .myInfo {
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 0 5px 5px 0;
+
+      .wrapper {
+        // Reset previous media query
+        width: 100%;
+        margin: 0px;
+
+        h2 {
+          text-align: center;
+        }
+        .external-icons {
+          justify-content: end;
+        }
+      }
+    }
+  }
+}
