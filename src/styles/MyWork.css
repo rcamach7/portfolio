@@ -4,6 +4,7 @@
 .MyWork h2 {
   text-align: center;
   margin: 15px 0 10px 0;
+  cursor: default;
 }
 .MyWork .projectContainer {
   display: flex;
@@ -21,6 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: transform 1s;
 }
 .Project .project-screenshot {
   width: 100%;
@@ -56,6 +58,11 @@
 }
 .Project span a:visited {
   color: #565656;
+}
+
+.Project:hover {
+  transform: scale(1.05);
+  cursor: default;
 }
 
 /*# sourceMappingURL=MyWork.css.map */

@@ -4,6 +4,7 @@
   h2 {
     text-align: center;
     margin: 15px 0 10px 0;
+    cursor: default;
   }
   .projectContainer {
     display: flex;
@@ -66,4 +67,9 @@
   span a:visited {
     color: rgb(86, 86, 86);
   }
+  transition: transform 1s;
+}
+.Project:hover {
+  transform: scale(1.05);
+  cursor: default;
 }
