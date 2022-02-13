@@ -51,6 +51,10 @@
     padding: 0 0 10px 0;
     display: flex;
     gap: 10px;
+
+    a {
+      color: rgb(86, 86, 86);
+    }
   }
   .project-link {
     color: rgb(9, 145, 177);
@@ -60,6 +64,6 @@
     transform: rotate(360deg) scale(1.5);
   }
   span a:visited {
-    color: inherit;
+    color: rgb(86, 86, 86);
   }
 }

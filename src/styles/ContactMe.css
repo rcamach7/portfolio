@@ -23,6 +23,7 @@
   gap: 15px;
 }
 .ContactMe .contact-info .contact-links a .contact-icon {
+  color: black;
   font-size: 25px;
   transition: transform 1s;
 }
