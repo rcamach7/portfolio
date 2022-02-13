@@ -44,6 +44,9 @@
   display: flex;
   gap: 10px;
 }
+.Project span a {
+  color: #565656;
+}
 .Project .project-link {
   color: #0991b1;
   transition: transform 1s;
@@ -52,7 +55,7 @@
   transform: rotate(360deg) scale(1.5);
 }
 .Project span a:visited {
-  color: inherit;
+  color: #565656;
 }
 
 /*# sourceMappingURL=MyWork.css.map */

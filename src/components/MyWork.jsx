@@ -3,6 +3,8 @@ import { useState } from "react";
 import snippetDemo from "../assets/project_demos/snippetDemo.gif";
 import facebookDemo from "../assets/project_demos/facebookDemo.gif";
 import cvDemo from "../assets/project_demos/cvDemo.gif";
+import weatherApp from "../assets/project_demos/weatherApp.gif";
+import memoryGame from "../assets/project_demos/memoryGame.gif";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -32,6 +34,22 @@ function MyWork() {
       demo: snippetDemo,
       liveLink: "https://rcamach7.github.io/snippet/",
       githubLink: "https://github.com/rcamach7/snippet",
+    },
+    {
+      name: "Weather App",
+      description:
+        "View daily and weekly weather forecasts using Zip-Codes and have information displayed dynamically using API calls!",
+      demo: weatherApp,
+      liveLink: "https://rcamach7.github.io/weather-app-react/?#",
+      githubLink: "https://github.com/rcamach7/weather-app-react",
+    },
+    {
+      name: "Memory Game",
+      description:
+        "A React based web app which simulates a memory game: Get points for choosing a card, but don't choose the same card twice!",
+      demo: memoryGame,
+      liveLink: "https://rcamach7.github.io/memory-game-react/",
+      githubLink: "https://github.com/rcamach7/memory-game-reactt",
     },
   ]);
 

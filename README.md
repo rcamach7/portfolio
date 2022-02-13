@@ -9,7 +9,7 @@ Welcome to my current portfolio page showcasing a little bit about myself, along
 - Javascript
 - HTML
 - CSS
-- SASS Styling
+- SASS
 
 #### Local Installation & Running
 
