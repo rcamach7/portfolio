@@ -26,16 +26,21 @@
   flex-direction: column;
   align-items: center;
 
-  .project-screenshot {
+  .imageWrapper {
+    position: relative;
     width: 100%;
     height: 300px;
     border-radius: 5px 5px 0 0;
     border-bottom: solid 1px black;
 
-    // Only for testing to align placeholder text
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    img {
+      position: absolute;
+      width: 100%;
+      height: 300px;
+    }
+    .imageWrapper-still:hover {
+      opacity: 0;
+    }
   }
   // Project Title
   h3 {

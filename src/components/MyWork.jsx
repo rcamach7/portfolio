@@ -5,6 +5,11 @@ import facebookDemo from "../assets/project_demos/facebookDemo.gif";
 import cvDemo from "../assets/project_demos/cvDemo.gif";
 import weatherApp from "../assets/project_demos/weatherApp.gif";
 import memoryGame from "../assets/project_demos/memoryGame.gif";
+import cvStill from "../assets/project_demos/cvStill.png";
+import facebookStill from "../assets/project_demos/facebookStill.png";
+import memoryStill from "../assets/project_demos/memoryGame.png";
+import weatherStill from "../assets/project_demos/weatherStill.png";
+import snippetStill from "../assets/project_demos/snippetStill.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -16,6 +21,7 @@ function MyWork() {
       description:
         "An interactive, full stack, facebook clone built primarily using React. Allows user to make a post with text and/or pictures, like posts or comments, and stores this information in a real time database.",
       demo: facebookDemo,
+      demoStill: facebookStill,
       liveLink: "https://rcamach7.github.io/facebook-clone/",
       githubLink: "https://github.com/rcamach7/facebook-clone",
     },
@@ -24,6 +30,7 @@ function MyWork() {
       description:
         "A web application that allows you to generate a CV with input fields. Utilizes React, HTML, CSS, and multiple libraries to give user dynamic experience",
       demo: cvDemo,
+      demoStill: cvStill,
       liveLink: "http://rcamach7.github.io/cv-creator/",
       githubLink: "https://github.com/rcamach7/cv-creator",
     },
@@ -32,6 +39,7 @@ function MyWork() {
       description:
         "A web app that lets you upload and save frequently used code snippets for later use! Allows addition and deletion of categories and code blocks that are stored and queried from a firebase database.",
       demo: snippetDemo,
+      demoStill: snippetStill,
       liveLink: "https://rcamach7.github.io/snippet/",
       githubLink: "https://github.com/rcamach7/snippet",
     },
@@ -40,6 +48,7 @@ function MyWork() {
       description:
         "View daily and weekly weather forecasts using Zip-Codes and have information displayed dynamically using API calls!",
       demo: weatherApp,
+      demoStill: weatherStill,
       liveLink: "https://rcamach7.github.io/weather-app-react/?#",
       githubLink: "https://github.com/rcamach7/weather-app-react",
     },
@@ -48,6 +57,7 @@ function MyWork() {
       description:
         "A React based web app which simulates a memory game: Get points for choosing a card, but don't choose the same card twice!",
       demo: memoryGame,
+      demoStill: memoryStill,
       liveLink: "https://rcamach7.github.io/memory-game-react/",
       githubLink: "https://github.com/rcamach7/memory-game-reactt",
     },
@@ -69,7 +79,16 @@ function MyWork() {
 function Project(props) {
   return (
     <div className="Project">
-      <img src={props.project.demo} alt="" className="project-screenshot" />
+      {/* <img src={props.project.demo} alt="" className="project-screenshot" /> */}
+      {/* <img src={cvStill} alt="" /> */}
+      <div className="imageWrapper">
+        <img src={props.project.demo} alt="" />
+        <img
+          className="imageWrapper-still"
+          src={props.project.demoStill}
+          alt=""
+        />
+      </div>
 
       <h3>{props.project.name}</h3>
       <p>{props.project.description}</p>
