@@ -1,25 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a8b04cc2.css",
-    "main.js": "/portfolio/static/js/main.d596dc31.js",
-    "static/media/facebookDemo.gif": "/portfolio/static/media/facebookDemo.d395781a62de8a6d8265.gif",
-    "static/media/cvDemo.gif": "/portfolio/static/media/cvDemo.6ffe53957e98b6e75d93.gif",
-    "static/media/snippetDemo.gif": "/portfolio/static/media/snippetDemo.e8df252fda1827e76f67.gif",
-    "static/media/memoryGame.gif": "/portfolio/static/media/memoryGame.d63e6b7fcb2a6cf19e24.gif",
-    "static/media/weatherApp.gif": "/portfolio/static/media/weatherApp.a52678c9588c5bf3afa3.gif",
-    "static/media/mug.png": "/portfolio/static/media/mug.b1e42c34efe049154304.png",
-    "static/media/weatherStill.png": "/portfolio/static/media/weatherStill.9dea9984cc221d049be5.png",
-    "static/media/man.png": "/portfolio/static/media/man.e7bd479c9f4de6a87d79.png",
-    "static/media/memoryGame.png": "/portfolio/static/media/memoryGame.15b5cc98a3b161e73df0.png",
-    "static/media/cvStill.png": "/portfolio/static/media/cvStill.ed81475d88300070dfca.png",
-    "static/media/snippetStill.png": "/portfolio/static/media/snippetStill.8210b23488d163091bbe.png",
-    "static/media/facebookStill.png": "/portfolio/static/media/facebookStill.59ef4dead81711ea3ad3.png",
+    "main.css": "/portfolio/static/css/main.89ef307f.css",
+    "main.js": "/portfolio/static/js/main.f4e54f27.js",
     "index.html": "/portfolio/index.html",
-    "main.a8b04cc2.css.map": "/portfolio/static/css/main.a8b04cc2.css.map",
-    "main.d596dc31.js.map": "/portfolio/static/js/main.d596dc31.js.map"
+    "main.89ef307f.css.map": "/portfolio/static/css/main.89ef307f.css.map",
+    "main.f4e54f27.js.map": "/portfolio/static/js/main.f4e54f27.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8b04cc2.css",
-    "static/js/main.d596dc31.js"
+    "static/css/main.89ef307f.css",
+    "static/js/main.f4e54f27.js"
   ]
 }
