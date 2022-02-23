@@ -1,6 +1,4 @@
 import "../styles/AboutMe.css";
-import mug from "../assets/mug.png";
-import blueBackground from "../assets/bk.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -11,15 +9,9 @@ import {
 
 function AboutMe() {
   return (
-    <header
-      className="AboutMe"
-      style={{ backgroundImage: `url(${blueBackground})` }}
-    >
+    <header className="AboutMe">
       <div className="myPicture">
-        <div
-          className="imageContainer"
-          style={{ backgroundImage: `url(${mug})` }}
-        >
+        <div className="imageContainer">
           <p className="myPicture-name">Ricardo Camacho</p>
         </div>
       </div>

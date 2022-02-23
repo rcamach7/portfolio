@@ -35,6 +35,7 @@
 }
 .ContactMe .imageContainer {
   width: 250px;
+  background-image: url("https://res.cloudinary.com/de2ymful4/image/upload/v1645645784/portfolio/man_vuiq8g.png");
   background-size: cover;
   background-position: center;
   min-height: 300px;

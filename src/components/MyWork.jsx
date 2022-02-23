@@ -1,15 +1,5 @@
 import "../styles/MyWork.css";
 import { useState } from "react";
-import snippetDemo from "../assets/project_demos/snippetDemo.gif";
-import facebookDemo from "../assets/project_demos/facebookDemo.gif";
-import cvDemo from "../assets/project_demos/cvDemo.gif";
-import weatherApp from "../assets/project_demos/weatherApp.gif";
-import memoryGame from "../assets/project_demos/memoryGame.gif";
-import cvStill from "../assets/project_demos/cvStill.png";
-import facebookStill from "../assets/project_demos/facebookStill.png";
-import memoryStill from "../assets/project_demos/memoryGame.png";
-import weatherStill from "../assets/project_demos/weatherStill.png";
-import snippetStill from "../assets/project_demos/snippetStill.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -20,8 +10,9 @@ function MyWork() {
       name: "Facebook Clone",
       description:
         "An interactive, full stack, facebook clone built primarily using React. Allows user to make a post with text and/or pictures, like posts or comments, and stores this information in a real time database.",
-      demo: facebookDemo,
-      demoStill: facebookStill,
+      demo: "https://res.cloudinary.com/de2ymful4/image/upload/v1645646368/portfolio/project_demos/facebookDemo_n1qyzh.gif",
+      demoStill:
+        "https://res.cloudinary.com/de2ymful4/image/upload/v1645646184/portfolio/project_demos/facebookStill_zobfos.png",
       liveLink: "https://rcamach7.github.io/facebook-clone/",
       githubLink: "https://github.com/rcamach7/facebook-clone",
     },
@@ -29,8 +20,9 @@ function MyWork() {
       name: "CV Generator",
       description:
         "A web application that allows you to generate a CV with input fields. Utilizes React, HTML, CSS, and multiple libraries to give user dynamic experience",
-      demo: cvDemo,
-      demoStill: cvStill,
+      demo: "https://res.cloudinary.com/de2ymful4/image/upload/v1645646346/portfolio/project_demos/cvDemo_dnt1xq.gif",
+      demoStill:
+        "https://res.cloudinary.com/de2ymful4/image/upload/v1645646186/portfolio/project_demos/cvStill_wvtf9e.png",
       liveLink: "http://rcamach7.github.io/cv-creator/",
       githubLink: "https://github.com/rcamach7/cv-creator",
     },
@@ -38,8 +30,9 @@ function MyWork() {
       name: "Snippet",
       description:
         "A web app that lets you upload and save frequently used code snippets for later use! Allows addition and deletion of categories and code blocks that are stored and queried from a firebase database.",
-      demo: snippetDemo,
-      demoStill: snippetStill,
+      demo: "https://res.cloudinary.com/de2ymful4/image/upload/v1645646273/portfolio/project_demos/snippetDemo_e1cg9w.gif",
+      demoStill:
+        "https://res.cloudinary.com/de2ymful4/image/upload/v1645646184/portfolio/project_demos/snippetStill_gk38lv.png",
       liveLink: "https://rcamach7.github.io/snippet/",
       githubLink: "https://github.com/rcamach7/snippet",
     },
@@ -47,8 +40,9 @@ function MyWork() {
       name: "Weather App",
       description:
         "View daily and weekly weather forecasts using Zip-Codes and have information displayed dynamically using API calls!",
-      demo: weatherApp,
-      demoStill: weatherStill,
+      demo: "https://res.cloudinary.com/de2ymful4/image/upload/v1645646229/portfolio/project_demos/weatherApp_vfgmvm.gif",
+      demoStill:
+        "https://res.cloudinary.com/de2ymful4/image/upload/v1645646194/portfolio/project_demos/weatherStill_b1ckdk.png",
       liveLink: "https://rcamach7.github.io/weather-app-react/?#",
       githubLink: "https://github.com/rcamach7/weather-app-react",
     },
@@ -56,8 +50,9 @@ function MyWork() {
       name: "Memory Game",
       description:
         "A React based web app which simulates a memory game: Get points for choosing a card, but don't choose the same card twice!",
-      demo: memoryGame,
-      demoStill: memoryStill,
+      demo: "https://res.cloudinary.com/de2ymful4/image/upload/v1645646251/portfolio/project_demos/memoryGame_ywpmbd.gif",
+      demoStill:
+        "https://res.cloudinary.com/de2ymful4/image/upload/v1645646187/portfolio/project_demos/memoryGame_tyrjxm.png",
       liveLink: "https://rcamach7.github.io/memory-game-react/",
       githubLink: "https://github.com/rcamach7/memory-game-reactt",
     },

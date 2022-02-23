@@ -5,7 +5,6 @@ import {
   faLinkedin,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
-import happyMan from "../assets/man.png";
 
 function ContactMe() {
   return (
@@ -41,10 +40,7 @@ function ContactMe() {
         </span>
       </div>
 
-      <div
-        className="imageContainer"
-        style={{ backgroundImage: `url(${happyMan})` }}
-      ></div>
+      <div className="imageContainer"></div>
     </footer>
   );
 }

@@ -1,4 +1,5 @@
 .AboutMe {
+  background-image: url("https://res.cloudinary.com/de2ymful4/image/upload/v1645645783/portfolio/bk_jdunm6.png");
   background-repeat: no-repeat;
   padding-top: 10px;
   cursor: default;
@@ -15,6 +16,7 @@
   width: 100%;
   min-height: 350px;
   padding: 5px;
+  background-image: url("https://res.cloudinary.com/de2ymful4/image/upload/v1645645780/portfolio/mug_togurc.png");
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 5px;
